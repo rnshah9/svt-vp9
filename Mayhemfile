@@ -1,0 +1,7 @@
+project: rnshah9/svt-vp9
+target: svt-vp9
+image: ghcr.io/rnshah9/playground:svt-vp9
+
+cmds:
+  - cmd: /repo/Bin/Release/SvtVp9EncApp -i @@ -w 100 -h 100
+    filepath: /test.yuv
